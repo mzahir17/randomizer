@@ -41,7 +41,8 @@ function randomizer(){
     // this displays random name and splices it out of array
     background(random(200, 225));
     randomIndex = int(random(flowers.length));
-    text(`${flowers[randomIndex].name} 's favorite color is ${flowers[randomIndex].color}`, 50, 50);
+    text(`${flowers[randomIndex].name} 's favorite color is
+     ${flowers[randomIndex].color}`, 50, 50);
     flowers.splice(randomIndex, 1);
   } else {
     background(random(200, 225));
